@@ -1,0 +1,1 @@
+[32mINFO    [0m ControlledLocators.ReusableActions:ReusableActions.py:87 Element should be found and clicked in = 5ms

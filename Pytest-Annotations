@@ -1,0 +1,12 @@
+Pytest Grouping Framework
+Command to generate HTML reports and get Junit Result Report.
+--> pytest TestCases -m "Smoke" --browser_name %Browser% --html=./HtmlReports/Report.html
+    -v --junitxml="result.xml"
+--> pytest TestCases -m "LoginPage" , pytest TestCases -m "Smoke or Sanity"
+--> command to Attached multiple reports with email --- > **/HtmlReports/Report.html,**/result.xml
+--> command to add xml report path.
+--> command to generate multiple reports --> pytest -v -s TestCases -m "Smoke" --browser_name %Browser%
+    --html=./HtmlReports/Report.html -v --junitxml="result.xml" --alluredir=./Reports
+
+
+pytest -v -s TestCases --browser_name "firefox" --application "Git_hub" -k "test_Git_Hub.py" --html=./Report-Html/Report.html -v --junitxml="result.xml" --alluredir=./Report-Allure

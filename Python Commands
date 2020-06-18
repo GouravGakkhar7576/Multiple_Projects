@@ -1,0 +1,13 @@
+# Any PyTest should be start with  test_ or end with _test .
+# -k stands for method execution,. -s for logs in out put , -v for more info metadata
+# you can run specific file with py.test <FileName> or with -K <Keyword name>
+# you can run test case with using mark annotation like pytest -m <name> -v -s
+# if there is any bug in the application and uh know that this will be failed so how to represent to the client without showing the skip testcase
+     pytest.mark.skip and pytest.mark.skipif
+# if one testcase is dependednt on second one then with skip all the test cases will be fail so thats why
+     we use this annotation so that testcase will run but not show in the report.
+     @pytest.mark.xfail
+# pytest fixture is work with mostly same as testng before test and after test
+# we can declare fixture anywhere like in the begining or anywhere on the page
+# yield keyword will work like after test or complete testcases execution and at the last yield state execute
+# pytest -m "mark name" it will execute testcases having mark in case of not we use -m "not"

@@ -1,0 +1,10 @@
+[ {
+  "name" : "Jenkins",
+  "type" : "jenkins",
+  "url" : "http://gouravgakkhar01.com/jenkins/./",
+  "buildOrder" : 13,
+  "buildName" : "Multiple_URL #13",
+  "buildUrl" : "http://gouravgakkhar01.com/jenkins/./job/Multiple_URL/13/",
+  "reportName" : "AllureReport",
+  "reportUrl" : "http://gouravgakkhar01.com/jenkins/./job/Multiple_URL/13/allure"
+} ]
